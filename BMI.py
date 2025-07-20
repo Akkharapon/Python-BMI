@@ -6,7 +6,7 @@ def calculate_bmi():
         weight = float(entry_weight.get())
         height = float(entry_height.get()) / 100  # แปลงจาก cm เป็น m
         bmi = weight / (height ** 2)
-        bmi = round(bmi, 2)
+        bmi = round(bmi, 2) #
 
         if bmi < 18.5:
             status = "ผอม"
